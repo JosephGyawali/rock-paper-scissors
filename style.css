@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    box-sizing: border-box;
+}
+
+/* navigation menu */
+
+.nav-bar {
+    display: block;
+    height: 100px;
+    background-color: #7cb2d6;
+    text-align: center;
+    
+}
+
+.nav-bar h1 {
+    line-height: 3;
+}
+
+/* Main */
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    height: 778px; /* Should be removed. Only for demonstration */
+    background-color: gray;
+    text-align: center;
+    
+    
+  }
+
+
+  .rock {
+      margin-top: 80px;
+      width: 25%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .paper {
+    margin-top: 70px;
+      width: 25%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .scissor {
+    margin-top: 100px;
+      width: 25%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  
+  /* Clear floats after the columns */
+  /* .main:after {
+    content: "";
+    display: table;
+    clear: both
+  } */
+
+
+
+
+/* footer */
+.footer {
+    position: fixed;
+    bottom: 0;
+    display: block;
+    background-color: #7cb2d6;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+
+.footer img {
+    width: 150px;
+    height: 50px;
+    display: inline;
+
+}
