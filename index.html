@@ -28,16 +28,29 @@
 
             <div class="result middle column">
                 <h2>Result</h2>
+                <div class="results">
+                    <p>Paper beats Rock. You win!</p>
+                </div>
+
+                <div class="game-result">
+                   <span id="computer-score">0</span><span>:</span><span id="user-score">0</span>
+                </div>
                 
             </div>
 
             <div class="player side column">
                 <h2>Player</h2>
                 <div class="logo">
-                    <img src="images/rock.png" alt="rock" class="rock">
-                    <img src="images/paper.png" alt="paper" class="paper">
-                    <img src="images/scissor.png" alt="scissor" class="scissor">
+                    <div id="r">
+                        <img src="images/rock.png" alt="rock" class="rock">
+                    </div>
 
+                    <div id="p"></div>
+                        <img src="images/paper.png" alt="paper" class="paper">
+                    </div>
+                    <div id="s">
+                        <img src="images/scissor.png" alt="scissor" class="scissor">
+                    </div>  
                 </div>
             </div>
 
@@ -51,6 +64,6 @@
            
         </div>
         
-        <!-- <script src="script.js"></script>  -->
+        <script src="script.js"></script> 
     </body>
 </html>
